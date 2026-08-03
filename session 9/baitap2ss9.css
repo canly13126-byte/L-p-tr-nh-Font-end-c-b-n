@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333333;
+    padding: 0 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #333333;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 15px;
+}
+
+.btn-signup {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0;
+}
+
+.hero-left, .hero-right {
+    flex: 1;
+}
+
+.hero-img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hero-img-container img {
+    border-radius: 20px;
+    display: block;
+}
+
+.badge-box {
+    position: absolute;
+    bottom: 20px;
+    right: -30px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.badge-item {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.badge-item:last-child {
+    margin-bottom: 0;
+}
+
+.hero-right h1 {
+    font-size: 46px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-right p {
+    color: #666666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-actions {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.btn-start {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-video {
+    background-color: transparent;
+    color: #111111;
+    border: 1px solid #111111;
+    padding: 14px 28px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stat-item h3 {
+    font-size: 32px;
+}
+
+.stat-item p {
+    color: #666666;
+    margin-top: 5px;
+}
+
+.courses {
+    padding: 60px 0;
+}
+
+.courses h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.courses-subtitle {
+    color: #666666;
+    margin-bottom: 40px;
+}
+
+.course-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.course-card {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+.course-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.course-content {
+    padding: 20px;
+}
+
+.course-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-content p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-buy {
+    background-color: #111111;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.testimonial {
+    background-color: #111111;color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 60px 0;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    min-width: 250px;
+}
+
+.author img {
+    border-radius: 50%;
+}
+
+.author h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.author p {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+.quote {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #dddddd;
+    border-left: 2px solid #555555;
+    padding-left: 20px;
+}
