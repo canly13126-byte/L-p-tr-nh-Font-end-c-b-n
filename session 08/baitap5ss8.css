@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #23262F;
+    background-color: #FAFAF9;
+}
+.main-header {
+    border-bottom: 1px solid #E6E8EC;
+    background: #FFFFFF;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: 700;
+    color: #141416;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-links a {
+    color: #777E90;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.page-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    gap: 64px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+    letter-spacing: -1px;
+}
+
+.form-section {
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #E6E8EC;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    background: #FFFFFF;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    color: #B1B5C4;
+    margin-bottom: 4px;
+}
+
+.val {
+    font-size: 16px;
+    color: #141416;
+}
+
+.edit-icon {
+    cursor: pointer;
+    opacity: 0.6;
+}
+.card-icons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+}
+
+.brand-logo {
+    height: 32px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #E6E8EC;
+}
+.card-options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.card-mockup {
+    border-radius: 16px;
+    padding: 24px;
+    color: #FFFFFF;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blue-card { background: linear-gradient(135deg, #3B71FE 0%, #141416 100%); }
+.green-card { background: linear-gradient(135deg, #58C27D 0%, #23262F 100%); }
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.input-field {
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #E6E8EC;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    outline: none;
+    background: #FFFFFF;
+}
+
+.input-field:focus {
+    border-color: #3B71FE;
+}
+
+.row-inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.btn-submit {
+    background-color: #3B71FE;
+    color: #FFFFFF;
+    border: none;
+    padding: 16px 32px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 90px;
+    cursor: pointer;
+    margin-bottom: 48px;
+    transition: background 0.2s;
+}
+
+.btn-submit:hover {
+    background-color: #2952CC;
+}
+
+.promo-banner {
+    background: #3B71FE;
+    color: #FFFFFF;
+    padding: 32px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.promo-text h4 { 
+    font-size: 24px; 
+    margin-bottom: 8px; 
+    font-weight: 700; 
+}
+
+.promo-text p { 
+    font-size: 14px; 
+    opacity: 0.8; 
+}
+
+
+.promo-input input {
+    border: none;
+    padding: 10px 16px;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    background: transparent;
+}
+
+.promo-input button {
+    background: #141416;
+    color: #FFFFFF;
+    border: 2px dashed rgba(255, 255, 255, 0.4);
+    border-radius: 90px;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.sidebar-card {
+    border: 1px solid #E6E8EC;
+    border-radius: 24px;
+    padding: 24px;
+    background: #FFFFFF;
+    position: sticky;
+    top: 100px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.02);
+}
+
+.hotel-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+
+.hotel-info h4 { font-size: 20px; font-weight: 700; margin-bottom: 8px; }
+.hotel-info .rating { font-size: 14px; font-weight: 600; margin-bottom: 24px; }
+.reviews { color: #777E90; font-weight: 400; }
+
+.booking-dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px 0;
+    border-top: 1px solid #E6E8EC;
+    border-bottom: 1px solid #E6E8EC;
+    margin-bottom: 24px;
+}
+
+.date-label { font-size: 12px; color: #777E90; display: block; margin-bottom: 4px; }
+
+.price-details h5 { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #777E90;
+}
+
+.discount { color: #58C27D; font-weight: 500; }
+.divider { border: none; border-top: 1px solid #E6E8EC; margin: 16px 0; }
+.price-row.total { font-weight: 700; color: #141416; font-size: 20px; }
+.main-footer {
+    background: #F4F5F6;
+    padding: 80px 24px;
+    margin-top: 80px;
+    border-top: 1px solid #E6E8EC;
+}
+
+.footer-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 48px;
+}
+
+.footer-desc { font-size: 14px; color: #777E90; margin-top: 16px; line-height: 22px; }
+.footer-col h5 { font-size: 16px; font-weight: 700; margin-bottom: 24px; }
+.footer-col a { display: block; color: #777E90; text-decoration: none; font-size: 14px; margin-bottom: 12px; }
+.footer-col a:hover { color: #3B71FE; }
+
+@media (max-width: 1024px) {
+    .page-container {
+        grid-template-columns: 1fr;
+        gap: 48px;
+    }
+    .right-sidebar .sidebar-card {
+        position: static;
+    }
+}
+@media (max-width: 768px) {
+    h2 { font-size: 32px; }
+    .card-options {
+        grid-template-columns: 1fr;
+    }
+    .promo-banner {
+        padding: 24px;
+    }
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
