@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai Tap Mang va Object</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .bai-tap { margin-bottom: 25px; padding: 15px; border: 1px solid #ccc; border-radius: 5px; }
+        .btn { padding: 5px 15px; cursor: pointer; }
+        .ket-qua { margin-top: 10px; font-weight: bold; color: blue; }
+        .input-text { width: 200px; padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="bai-tap">
+        <h3>Bai 1: Dao nguoc mang ky tu</h3>
+        <p>Mang goc: ['c', 's', 'c', '2', '6', '1']</p>
+        <button class="btn" onclick="chayBai1()">Dao nguoc</button>
+        <div class="ket-qua" id="kq1"></div>
+    </div>
+
+    <div class="bai-tap">
+        <h3>Bai 2: Dem so ky tu so trong mang</h3>
+        <p>Mang goc: ['a', 'b', '2', 'x', '5', '8', 'z']</p>
+        <button class="btn" onclick="chayBai2()">Dem</button>
+        <div class="ket-qua" id="kq2"></div>
+    </div>
+
+    <div class="bai-tap">
+        <h3>Bai 3: Dem so tu trong chuoi</h3>
+        <input type="text" id="txtBai3" class="input-text" value="Hoc lap trinh JavaScript">
+        <button class="btn" onclick="chayBai3()">Dem tu</button>
+        <div class="ket-qua" id="kq3"></div>
+    </div>
+
+    <div class="bai-tap">
+        <h3>Bai 4: Kiem tra hai chuoi</h3>
+        <input type="text" id="txt1Bai4" class="input-text" value="Hello">
+        <input type="text" id="txt2Bai4" class="input-text" value="Hello">
+        <button class="btn" onclick="chayBai4()">Kiem tra</button>
+        <div class="ket-qua" id="kq4"></div>
+    </div>
+
+    <div class="bai-tap">
+        <h3>Bai 5: Thay the ky tu '-' bang '_'</h3>
+        <p>Mang goc: ['a', '-', 'b', '-', 'c']</p>
+        <button class="btn" onclick="chayBai5()">Thay the</button>
+        <div class="ket-qua" id="kq5"></div>
+    </div>
+
+    <script src="baitap2ss15.js"></script>
+</body>
+</html>
+
