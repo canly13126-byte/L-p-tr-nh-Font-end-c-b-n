@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker App</title>
+    <link rel="stylesheet" href="baitap5ss19.css">
+</head>
+<body>
+
+<div class="container">
+    <button id="openModalBtn" class="btn-main">ADD BOOKMARK</button>
+    <div id="bookmarkContainer" class="bookmark-grid"></div>
+</div>
+
+<div id="bookmarkModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3>Add Bookmark</h3>
+            <span id="closeModalBtn" class="close-btn">&times;</span>
+        </div>
+        <form id="bookmarkForm">
+            <div class="form-group">
+                <label for="siteName">Website Name</label>
+                <input type="text" id="siteName" required>
+            </div>
+            <div class="form-group">
+                <label for="siteUrl">Website URL</label>
+                <input type="text" id="siteUrl" required>
+            </div>
+            <button type="submit" class="btn-save">Save</button>
+        </form>
+    </div>
+</div>
+
+<script src="baitap5ss19.js"></script>
+</body>
+</html>

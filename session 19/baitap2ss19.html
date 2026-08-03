@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="baitap2ss19.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Task Management</h2>
+    
+    <form id="taskForm">
+        <input type="hidden" id="taskId">
+        <input type="text" id="content" placeholder="Content" required>
+        <input type="date" id="dueDate" required>
+        <select id="status" required>
+            <option value="" disabled selected>Choose status</option>
+            <option value="Pending">Pending</option>
+            <option value="Fulfill">Fulfill</option>
+            <option value="Reject">Reject</option>
+        </select>
+        <input type="text" id="assignedTo" placeholder="Username" required>
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Content</th>
+                <th>Due date</th>
+                <th>Status</th>
+                <th>Assigned to</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="taskTableBody"></tbody>
+    </table>
+</div>
+
+<script src="baitap2ss19.js"></script>
+</body>
+</html>

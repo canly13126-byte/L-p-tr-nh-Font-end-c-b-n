@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333333;
+    font-size: 28px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#todoInput {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+#todoInput:focus {
+    border-color: #9b59b6;
+}
+
+#addBtn {
+    background-color: #9b59b6;
+    color: #ffffff;
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#addBtn:hover {
+    background-color: #8e44ad;
+}
+
+#todoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#todoList li {
+    background-color: #f2f2f2;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #333333;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+.todo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333333;
+}
+
+#clearAllBtn {
+    background-color: #9b59b6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#clearAllBtn:hover {
+    background-color: #8e44ad;
+}
