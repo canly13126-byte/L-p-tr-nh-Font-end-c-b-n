@@ -1,0 +1,21 @@
+        .box-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 400px;
+        }
+
+        .rotate-box {
+            width: 150px;
+            height: 150px;
+            background-color: #4caf50;
+            color: #333333;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            box-sizing: border-box;
+            transition: transform 0.5s ease;
+        }
+
+        .rotate-box:hover {
+            transform: rotate(45deg);
+        }

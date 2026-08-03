@@ -1,0 +1,17 @@
+        .my-button {
+            background-color: #e0e0e0;
+            color: #888888;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            transition: background-color 0.1s ease;
+        }
+
+        .my-button:active {
+            background-color: #e53935;
+            color: #ffffff;
+        }
