@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tạo table sử dụng thuộc tính rowspan </title>
+    <style>
+        table {
+            border: 2px solid gray;
+            border-spacing: 20px;
+            padding: 10px;
+        }
+
+        th,
+        td {
+            border: 2px solid gray;
+            padding: 25px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Loại sản phẩm</th>
+            <th>Tên sản phẩm</th>
+            <th>Giá</th>
+        </tr>
+        <tr>
+            <td rowspan="2">điện tử</td>
+            <td>laptop</td>
+            <td> 15.000.000</td>
+        </tr>
+        <tr>
+            <td>điện thoại</td>
+            <td>8.000.000</td>
+
+        </tr>
+        <tr>
+            <td>Gia dụng</td>
+            <td>Máy giặt</td>
+            <td>5.000.000</td>
+        </tr>
+    </table>
+</body>
+
+</html>
